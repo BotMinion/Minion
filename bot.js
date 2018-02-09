@@ -20,5 +20,11 @@ client.on('message', message => {
 
   }
 });
+
+client.on('message', message => {
+    if (message.content === '=Q Warthunder') {
+    	message.reply('http://store.steampowered.com/app/236390/War_Thunder/');
+  	}
+});
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
