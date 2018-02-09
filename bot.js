@@ -5,18 +5,19 @@ client.on('ready', () => {
     console.log('I am ready!');
 });
 
-client.on('message', message => {
-    if (message.content === 'ping') {
-    	message.reply('pong');
-  	}
-});
-
-
+// JOKE
 
 client.on('message', message => {
+  
+// Bad words 
+ 
   if (message.content === 'fuck you minion') {
       message.reply('(╯°□°）╯︵ ┻━┻');
-
+  
+// Just Joke
+  if (message.content === 'ping') {
+    	message.reply('pong');
+  	}
 
   }
 });
