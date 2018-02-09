@@ -5,8 +5,6 @@ client.on('ready', () => {
     console.log('I am ready!');
 });
 
-// JOKE
-
 client.on('message', message => {
   
 // Bad words 
@@ -27,6 +25,9 @@ client.on('message', message => {
     if (message.content === '=naver') {
     	message.reply('https://www.naver.com/');
     }
+    if (message.content === '=Naver') {
+    	message.reply('https://www.naver.com/');
+    }
     if (message.content === '=NAVER') {
     	message.reply('https://www.naver.com/');
     }
@@ -34,7 +35,23 @@ client.on('message', message => {
     	message.reply('https://www.naver.com/');
   	}
  });
-    
+ 
+//DAUM
+client.on('message', message => {
+    if (message.content === '=daum') {
+    	message.reply('https://www.daum.net/');
+    }
+    if (message.content === '=Daum') {
+    	message.reply('https://www.daum.net/');
+    }
+    if (message.content === '=DAUM') {
+    	message.reply('https://www.daum.net/');
+    }
+    if (message.content === '=다음') {
+    	message.reply('https://www.daum.net/');
+  	}
+ });
+
 //WarThunder
 client.on('message', message => {
     if (message.content === '=Q warthunder') {
@@ -66,6 +83,7 @@ client.on('message', message => {
     	message.reply('http://store.steampowered.com/app/236390/War_Thunder/');
   	}
 });
+
 //PUBG
 client.on('message', message => {   
     if (message.content === '=q 배그') {
@@ -94,6 +112,14 @@ client.on('message', message => {
   	}
 
     if (message.content === '=q pubg') {
+    	message.reply('http://store.steampowered.com/app/578080/PLAYERUNKNOWNS_BATTLEGROUNDS/');    
+  	}
+   
+    if (message.content === '=Q Pubg') {
+    	message.reply('http://store.steampowered.com/app/578080/PLAYERUNKNOWNS_BATTLEGROUNDS/');
+  	}
+
+    if (message.content === '=q Pubg') {
     	message.reply('http://store.steampowered.com/app/578080/PLAYERUNKNOWNS_BATTLEGROUNDS/');    
   	}
 });
