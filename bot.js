@@ -14,11 +14,11 @@ client.on('message', message => {
   if (message.content === 'fuck you minion') {
       message.reply('(╯°□°）╯︵ ┻━┻');
   
-// Just Joke
+  }
+ 
   if (message.content === 'ping') {
-    	message.reply('pong');
-  	}
-
+      message.reply('pong');
+  
   }
 });
 
