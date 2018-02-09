@@ -27,6 +27,9 @@ client.on('message', message => {
     if (message.content === '=naver') {
     	message.reply('https://www.naver.com/');
     }
+    if (message.content === '=NAVER') {
+    	message.reply('https://www.naver.com/');
+    }
     if (message.content === '=네이버') {
     	message.reply('https://www.naver.com/');
   	}
