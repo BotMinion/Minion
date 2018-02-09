@@ -22,9 +22,15 @@ client.on('message', message => {
 });
 
 client.on('message', message => {
-    if (message.content === '=Q warthunder')
-    if (message.content === '=q warthunder')
-    if (message.content === '=q Warthunder')
+    if (message.content === '=Q warthunder') {
+    	message.reply('http://store.steampowered.com/app/236390/War_Thunder/');
+  	}
+    if (message.content === '=q warthunder') {
+    	message.reply('http://store.steampowered.com/app/236390/War_Thunder/');
+  	}
+    if (message.content === '=q Warthunder') {
+    	message.reply('http://store.steampowered.com/app/236390/War_Thunder/');
+  	}
     if (message.content === '=Q Warthunder') {
     	message.reply('http://store.steampowered.com/app/236390/War_Thunder/');
   	}
