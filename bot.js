@@ -51,6 +51,22 @@ client.on('message', message => {
     	message.reply('https://www.daum.net/');
   	}
  });
+ 
+//GOOGLE
+client.on('message', message => {
+    if (message.content === '=google') {
+    	message.reply('https://www.google.com/');
+    }
+    if (message.content === '=Google') {
+    	message.reply('https://www.google.com/');
+    }
+    if (message.content === '=GOOGLE') {
+    	message.reply('https://www.google.com/');
+    }
+    if (message.content === '=구글') {
+    	message.reply('https://www.google.com/');
+  	}
+ });
 
 //WarThunder
 client.on('message', message => {
