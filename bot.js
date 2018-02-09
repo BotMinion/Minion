@@ -35,10 +35,18 @@ client.on('message', message => {
     if (message.content === '=Q Warthunder') {
     	message.reply('http://store.steampowered.com/app/236390/War_Thunder/');
   	}
-    if (message.content === '=Q 워썬더 ant =Q 워선더 ') {
+    if (message.content === '=Q 워썬더') {
     	message.reply('http://store.steampowered.com/app/236390/War_Thunder/');
   	}
-
+    if (message.content === '=Q 워선더') {
+    	message.reply('http://store.steampowered.com/app/236390/War_Thunder/');
+  	}
+    if (message.content === '=q 워썬더') {
+    	message.reply('http://store.steampowered.com/app/236390/War_Thunder/');
+  	}
+    if (message.content === '=q 워선더') {
+    	message.reply('http://store.steampowered.com/app/236390/War_Thunder/');
+  	}
 });
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
