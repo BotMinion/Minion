@@ -15,7 +15,7 @@ client.on('message', message => {
       message.reply('(╯°□°）╯︵ ┻━┻');
   
   }
- 
+
   if (message.content === 'ping') {
       message.reply('pong');
   
@@ -43,6 +43,44 @@ client.on('message', message => {
     	message.reply('http://store.steampowered.com/app/236390/War_Thunder/');
   	}
 
+});
+//PUBG
+client.on('message', message => {
+    if (message.content === '=Q PLAYERUNKNOWN'S BATTLEGROUNDS') {
+    	message.reply('http://store.steampowered.com/app/578080/PLAYERUNKNOWNS_BATTLEGROUNDS/');
+  	}
+    if (message.content === '=q PLAYERUNKNOWN'S BATTLEGROUNDS') {
+    	message.reply('http://store.steampowered.com/app/578080/PLAYERUNKNOWNS_BATTLEGROUNDS/');
+  	}
+    
+    if (message.content === '=q 배그') {
+    	message.reply('http://store.steampowered.com/app/578080/PLAYERUNKNOWNS_BATTLEGROUNDS/');
+  	}
+    if (message.content === '=Q 배그') {
+    	message.reply('http://store.steampowered.com/app/578080/PLAYERUNKNOWNS_BATTLEGROUNDS/');
+    }
+   
+    if (message.content === '=q 배틀그라운드') {
+    	message.reply('http://store.steampowered.com/app/578080/PLAYERUNKNOWNS_BATTLEGROUNDS/');
+  	}
+    if (message.content === '=Q 배틀그라운드') {
+    	message.reply('http://store.steampowered.com/app/578080/PLAYERUNKNOWNS_BATTLEGROUNDS/');
+  	}
+
+    if (message.content === '=Q PUBG') {
+    	message.reply('http://store.steampowered.com/app/578080/PLAYERUNKNOWNS_BATTLEGROUNDS/');
+  	}
+    if (message.content === '=q PUBG') {
+    	message.reply('http://store.steampowered.com/app/578080/PLAYERUNKNOWNS_BATTLEGROUNDS/');
+  	}
+   
+    if (message.content === '=Q pubg') {
+    	message.reply('http://store.steampowered.com/app/578080/PLAYERUNKNOWNS_BATTLEGROUNDS/');
+  	}
+
+    if (message.content === '=q pubg') {
+    	message.reply('http://store.steampowered.com/app/578080/PLAYERUNKNOWNS_BATTLEGROUNDS/');    
+  	}
 });
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
