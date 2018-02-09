@@ -29,12 +29,14 @@ client.on('message', message => {
     if (message.content === '=q warthunder') {
     	message.reply('http://store.steampowered.com/app/236390/War_Thunder/');
   	}
+    
     if (message.content === '=q Warthunder') {
     	message.reply('http://store.steampowered.com/app/236390/War_Thunder/');
   	}
     if (message.content === '=Q Warthunder') {
     	message.reply('http://store.steampowered.com/app/236390/War_Thunder/');
   	}
+    
     if (message.content === '=Q 워썬더') {
     	message.reply('http://store.steampowered.com/app/236390/War_Thunder/');
   	}
@@ -42,7 +44,13 @@ client.on('message', message => {
     if (message.content === '=q 워썬더') {
     	message.reply('http://store.steampowered.com/app/236390/War_Thunder/');
   	}
-
+    
+    if (message.content === '=Q War_thunder') {
+    	message.reply('http://store.steampowered.com/app/236390/War_Thunder/');
+  	}
+    if (message.content === '=q war_thunder') {
+    	message.reply('http://store.steampowered.com/app/236390/War_Thunder/');
+  	}
 });
 //PUBG
 client.on('message', message => {   
