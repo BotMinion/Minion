@@ -45,14 +45,7 @@ client.on('message', message => {
 
 });
 //PUBG
-client.on('message', message => {
-    if (message.content === '=Q PLAYERUNKNOWN'S BATTLEGROUNDS') {
-    	message.reply('http://store.steampowered.com/app/578080/PLAYERUNKNOWNS_BATTLEGROUNDS/');
-  	}
-    if (message.content === '=q PLAYERUNKNOWN'S BATTLEGROUNDS') {
-    	message.reply('http://store.steampowered.com/app/578080/PLAYERUNKNOWNS_BATTLEGROUNDS/');
-  	}
-    
+client.on('message', message => {   
     if (message.content === '=q 배그') {
     	message.reply('http://store.steampowered.com/app/578080/PLAYERUNKNOWNS_BATTLEGROUNDS/');
   	}
