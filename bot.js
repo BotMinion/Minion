@@ -20,6 +20,22 @@ client.on('message', message => {
   }
 });
 
+//BING
+client.on('message', message => {
+    if (message.content === '=bing') {
+    	message.reply('https://www.bing.com/');
+    }
+    if (message.content === '=Bing') {
+    	message.reply('https://www.bing.com/');
+    }
+    if (message.content === '=BING') {
+    	message.reply('https://www.bing.com/');
+    }
+    if (message.content === '=빙') {
+    	message.reply('https://www.bing.com/');
+  	}
+ });
+
 //ZUM
 client.on('message', message => {
     if (message.content === '=zum') {
