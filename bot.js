@@ -70,6 +70,28 @@ client.on('message', message => {
     }
  });
 
+//INSTAGRAM
+client.on('message', message => {
+    if (message.content === '=instagram') {
+    	message.reply('https://www.youtube.com');
+    }
+    if (message.content === '=Instagram') {
+    	message.reply('https://www.youtube.com');
+    }
+    if (message.content === '=INSTAGRAM') {
+    	message.reply('https://www.youtube.com');
+    }
+    if (message.content === '=인스타그램') {
+    	message.reply('https://www.youtube.com');
+  	}
+    if (message.content === '=인스타') {
+    	message.reply('https://www.youtube.com');
+  	}
+    if (message.content === '=인스') {
+    	message.reply('https://www.youtube.com');
+  	}
+ });
+
 //YOUTUBE
 client.on('message', message => {
     if (message.content === '=youtube') {
@@ -86,6 +108,53 @@ client.on('message', message => {
   	}
     if (message.content === '=유튭') {
     	message.reply('https://www.youtube.com');
+  	}
+ });
+
+//NAMUWIKI
+client.on('message', message => {
+    if (message.content === '=namuwiki') {
+    	message.reply('https://namu.wiki');
+    }
+    if (message.content === '=Namuwiki') {
+    	message.reply('https://namu.wiki');
+    }
+    if (message.content === '=NAMUWIKI') {
+    	message.reply('https://namu.wiki');
+    }
+    if (message.content === '=Namu_Wiki') {
+    	message.reply('https://namu.wiki');
+    }
+    if (message.content === '=Namu_wiki') {
+    	message.reply('https://namu.wiki');
+    }
+    if (message.content === '=namu_wiki') {
+    	message.reply('https://namu.wiki');
+    }
+    if (message.content === '=namu_Wiki') {
+    	message.reply('https://namu.wiki');
+    }
+    if (message.content === '=나위') {
+    	message.reply('https://namu.wiki');
+  	}
+    if (message.content === '=나무위키') {
+    	message.reply('https://namu.wiki');
+  	}
+ });
+
+//NATE
+client.on('message', message => {
+    if (message.content === '=nate') {
+    	message.reply('http://www.nate.com/');
+    }
+    if (message.content === '=Nate') {
+    	message.reply('http://www.nate.com/');
+    }
+    if (message.content === '=NATE') {
+    	message.reply('http://www.nate.com/');
+    }
+    if (message.content === '=네이트') {
+    	message.reply('http://www.nate.com/');
   	}
  });
 
