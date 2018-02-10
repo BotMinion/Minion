@@ -20,7 +20,32 @@ client.on('message', message => {
   }
 });
 
-//YOUTUBE
+//Twitter
+client.on('message', message => {
+    if (message.content === '=twitter') {
+    	message.reply('https://twitter.com/');
+    }
+    if (message.content === '=Twitter') {
+    	message.reply('https://twitter.com/');
+    }
+    if (message.content === '=TWITTER') {
+    	message.reply('https://twitter.com/');
+    }
+    if (message.content === '=짹짹') {
+    	message.reply('https://twitter.com/');
+    }
+    if (message.content === '=트위터') {
+    	message.reply('https://twitter.com/');
+  	}
+    if (message.content === '=트윗') {
+    	message.reply('https://twitter.com/');
+    }
+    if (message.content === '=트윗트윗') {
+    	message.reply('https://twitter.com/');
+    }
+ });
+
+//FACEBOOK
 client.on('message', message => {
     if (message.content === '=facebook') {
     	message.reply('https://www.facebook.com/');
