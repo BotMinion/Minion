@@ -20,6 +20,22 @@ client.on('message', message => {
   }
 });
 
+//ZUM
+client.on('message', message => {
+    if (message.content === '=zum') {
+    	message.reply('http://zum.com/#!/home');
+    }
+    if (message.content === '=Zum') {
+    	message.reply('http://zum.com/#!/home');
+    }
+    if (message.content === '=ZUM') {
+    	message.reply('http://zum.com/#!/home');
+    }
+    if (message.content === '=줌') {
+    	message.reply('http://zum.com/#!/home');
+  	}
+ });
+
 //NAVER
 client.on('message', message => {
     if (message.content === '=naver') {
