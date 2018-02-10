@@ -20,6 +20,47 @@ client.on('message', message => {
   }
 });
 
+//YOUTUBE
+client.on('message', message => {
+    if (message.content === '=facebook') {
+    	message.reply('https://www.facebook.com/');
+    }
+    if (message.content === '=FaceBook') {
+    	message.reply('https://www.facebook.com/');
+    }
+    if (message.content === '=Facebook') {
+    	message.reply('https://www.facebook.com/');
+    }
+    if (message.content === '=FACEBOOK') {
+    	message.reply('https://www.facebook.com/');
+    }
+    if (message.content === '=페이스북') {
+    	message.reply('https://www.facebook.com/');
+  	}
+    if (message.content === '=페북') {
+    	message.reply('https://www.facebook.com/');
+    }
+    if (message.content === '=얼굴책') {
+    	message.reply('https://www.facebook.com/');
+    }
+ });
+
+//YOUTUBE
+client.on('message', message => {
+    if (message.content === '=youtube') {
+    	message.reply('https://www.youtube.com');
+    }
+    if (message.content === '=Youtube') {
+    	message.reply('https://www.youtube.com');
+    }
+    if (message.content === '=YOUTUBE') {
+    	message.reply('https://www.youtube.com');
+    }
+    if (message.content === '=유튜브') {
+    	message.reply('https://www.youtube.com');
+  	}
+ });
+
 //BING
 client.on('message', message => {
     if (message.content === '=bing') {
