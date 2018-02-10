@@ -73,22 +73,22 @@ client.on('message', message => {
 //INSTAGRAM
 client.on('message', message => {
     if (message.content === '=instagram') {
-    	message.reply('https://www.youtube.com');
+    	message.reply('https://www.instagram.com/');
     }
     if (message.content === '=Instagram') {
-    	message.reply('https://www.youtube.com');
+    	message.reply('https://www.instagram.com/');
     }
     if (message.content === '=INSTAGRAM') {
-    	message.reply('https://www.youtube.com');
+    	message.reply('https://www.instagram.com/');
     }
     if (message.content === '=인스타그램') {
-    	message.reply('https://www.youtube.com');
+    	message.reply('https://www.instagram.com/');
   	}
     if (message.content === '=인스타') {
-    	message.reply('https://www.youtube.com');
+    	message.reply('https://www.instagram.com/');
   	}
     if (message.content === '=인스') {
-    	message.reply('https://www.youtube.com');
+    	message.reply('https://www.instagram.com/');
   	}
  });
 
