@@ -59,6 +59,9 @@ client.on('message', message => {
     if (message.content === '=유튜브') {
     	message.reply('https://www.youtube.com');
   	}
+    if (message.content === '=유튭') {
+    	message.reply('https://www.youtube.com');
+  	}
  });
 
 //BING
