@@ -43,6 +43,9 @@ client.on('message', message => {
     if (message.content === '=트윗트윗') {
     	message.reply('https://twitter.com/');
     }
+    if (message.content === '=') {
+    	message.reply('https://twitter.com/');
+    }
  });
 
 //FACEBOOK
