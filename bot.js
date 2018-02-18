@@ -43,7 +43,7 @@ client.on('message', message => {
     if (message.content === '=트윗트윗') {
     	message.reply('https://twitter.com/');
     }
-    if (message.content === '=') {
+    if (message.content === '=파랑새') {
     	message.reply('https://twitter.com/');
     }
  });
