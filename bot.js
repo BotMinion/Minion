@@ -19,10 +19,6 @@ client.on('message', message => {
   
   }
 });
-client.on('message', message => {
-    if (message.content === '=lol minion') {
-    	message.reply('https://giphy.com/gifs/laughing-despicable-me-minions-ZqlvCTNHpqrio');
-    }
 
 //NAMUWIKI
 client.on('message', message => {
