@@ -13,6 +13,11 @@ client.on('message', message => {
       message.reply(':regional_indicator_h: :regional_indicator_e: :regional_indicator_l: :regional_indicator_l: :regional_indicator_o: ');
   
   }
+    
+  if (message.content === 'XD') {
+      message.reply('https://giphy.com/gifs/laughing-despicable-me-minions-ZqlvCTNHpqrio');
+  
+  }
 
   if (message.content === 'ping') {
       message.reply('pong');
