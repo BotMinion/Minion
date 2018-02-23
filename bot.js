@@ -19,6 +19,70 @@ client.on('message', message => {
   
   }
 });
+client.on('message', message => {
+    if (message.content === '=lol minion') {
+    	message.reply('https://giphy.com/gifs/laughing-despicable-me-minions-ZqlvCTNHpqrio');
+    }
+
+//NAMUWIKI
+client.on('message', message => {
+    if (message.content === '=namuwiki') {
+    	message.reply('https://namu.wiki');
+    }
+    if (message.content === '=Namuwiki') {
+    	message.reply('https://namu.wiki');
+    }
+    if (message.content === '=NAMUWIKI') {
+    	message.reply('https://namu.wiki');
+    }
+    if (message.content === '=Namu_Wiki') {
+    	message.reply('https://namu.wiki');
+    }
+    if (message.content === '=Namu_wiki') {
+    	message.reply('https://namu.wiki');
+    }
+    if (message.content === '=namu_wiki') {
+    	message.reply('https://namu.wiki');
+    }
+    if (message.content === '=namu_Wiki') {
+    	message.reply('https://namu.wiki');
+    }
+    if (message.content === '=나위') {
+    	message.reply('https://namu.wiki');
+  	}
+    if (message.content === '=나무위키') {
+    	message.reply('https://namu.wiki');
+  	}
+ });
+
+//op.gg
+client.on('message', message => {
+    if (message.content === '=op.gg') {
+    	message.reply('http://www.op.gg/');
+    }
+    if (message.content === '=OP.GG') {
+    	message.reply('http://www.op.gg/');
+    }
+    if (message.content === '=오피.지지') {
+    	message.reply('http://www.op.gg/');
+    }
+    if (message.content === '=Op.gg') {
+    	message.reply('http://www.op.gg/');
+    }
+    if (message.content === '=op.GG') {
+    	message.reply('http://www.op.gg/');
+  	}
+    if (message.content === '=오지') {
+    	message.reply('http://www.op.gg/');
+    }
+    if (message.content === '=오피점지지') {
+    	message.reply('http://www.op.gg/');
+    }
+    if (message.content === '=오점지') {
+    	message.reply('http://www.op.gg/');
+    }
+    
+ });
 
 //Twitter
 client.on('message', message => {
@@ -243,72 +307,80 @@ client.on('message', message => {
 
 //WarThunder
 client.on('message', message => {
-    if (message.content === '=Q warthunder') {
+    if (message.content === '=I warthunder') {
     	message.reply('http://store.steampowered.com/app/236390/War_Thunder/');
   	}
-    if (message.content === '=q warthunder') {
-    	message.reply('http://store.steampowered.com/app/236390/War_Thunder/');
-  	}
-    
-    if (message.content === '=q Warthunder') {
-    	message.reply('http://store.steampowered.com/app/236390/War_Thunder/');
-  	}
-    if (message.content === '=Q Warthunder') {
+    if (message.content === '=i warthunder') {
     	message.reply('http://store.steampowered.com/app/236390/War_Thunder/');
   	}
     
-    if (message.content === '=Q 워썬더') {
+    if (message.content === '=I Warthunder') {
+    	message.reply('http://store.steampowered.com/app/236390/War_Thunder/');
+  	}
+    if (message.content === '=i Warthunder') {
+    	message.reply('http://store.steampowered.com/app/236390/War_Thunder/');
+  	}
+    
+    if (message.content === '=I 워썬더') {
     	message.reply('http://store.steampowered.com/app/236390/War_Thunder/');
   	}
 
-    if (message.content === '=q 워썬더') {
+    if (message.content === '=i 워썬더') {
     	message.reply('http://store.steampowered.com/app/236390/War_Thunder/');
   	}
     
-    if (message.content === '=Q War_thunder') {
+    if (message.content === '=I War_thunder') {
     	message.reply('http://store.steampowered.com/app/236390/War_Thunder/');
   	}
-    if (message.content === '=q war_thunder') {
+    if (message.content === '=i war_thunder') {
     	message.reply('http://store.steampowered.com/app/236390/War_Thunder/');
   	}
 });
 
 //PUBG
 client.on('message', message => {   
-    if (message.content === '=q 배그') {
+    if (message.content === '=I 배그') {
     	message.reply('http://store.steampowered.com/app/578080/PLAYERUNKNOWNS_BATTLEGROUNDS/');
   	}
-    if (message.content === '=Q 배그') {
+    if (message.content === '=i 배그') {
     	message.reply('http://store.steampowered.com/app/578080/PLAYERUNKNOWNS_BATTLEGROUNDS/');
     }
    
-    if (message.content === '=q 배틀그라운드') {
+    if (message.content === '=i 배틀그라운드') {
     	message.reply('http://store.steampowered.com/app/578080/PLAYERUNKNOWNS_BATTLEGROUNDS/');
   	}
-    if (message.content === '=Q 배틀그라운드') {
+    if (message.content === '=I 배틀그라운드') {
     	message.reply('http://store.steampowered.com/app/578080/PLAYERUNKNOWNS_BATTLEGROUNDS/');
   	}
 
-    if (message.content === '=Q PUBG') {
+    if (message.content === '=I PUBG') {
     	message.reply('http://store.steampowered.com/app/578080/PLAYERUNKNOWNS_BATTLEGROUNDS/');
   	}
-    if (message.content === '=q PUBG') {
+    if (message.content === '=i PUBG') {
     	message.reply('http://store.steampowered.com/app/578080/PLAYERUNKNOWNS_BATTLEGROUNDS/');
   	}
    
-    if (message.content === '=Q pubg') {
+    if (message.content === '=I pubg') {
     	message.reply('http://store.steampowered.com/app/578080/PLAYERUNKNOWNS_BATTLEGROUNDS/');
   	}
 
-    if (message.content === '=q pubg') {
+    if (message.content === '=i pubg') {
     	message.reply('http://store.steampowered.com/app/578080/PLAYERUNKNOWNS_BATTLEGROUNDS/');    
   	}
    
-    if (message.content === '=Q Pubg') {
+    if (message.content === '=I Pubg') {
+    	message.reply('http://store.steampowered.com/app/578080/PLAYERUNKNOWNS_BATTLEGROUNDS/');
+  	}
+       
+    if (message.content === '=I 펍지') {
+    	message.reply('http://store.steampowered.com/app/578080/PLAYERUNKNOWNS_BATTLEGROUNDS/');
+  	}
+   
+    if (message.content === '=i ') {
     	message.reply('http://store.steampowered.com/app/578080/PLAYERUNKNOWNS_BATTLEGROUNDS/');
   	}
 
-    if (message.content === '=q Pubg') {
+    if (message.content === '=i Pubg') {
     	message.reply('http://store.steampowered.com/app/578080/PLAYERUNKNOWNS_BATTLEGROUNDS/');    
   	}
 });
