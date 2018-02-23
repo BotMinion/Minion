@@ -9,8 +9,8 @@ client.on('message', message => {
   
 // Bad words 
  
-  if (message.content === 'fuck you minion') {
-      message.reply('(╯°□°）╯︵ ┻━┻');
+  if (message.content === 'hi minion') {
+      message.reply(':regional_indicator_h: :regional_indicator_e: :regional_indicator_l: :regional_indicator_l: :regional_indicator_o: ');
   
   }
 
