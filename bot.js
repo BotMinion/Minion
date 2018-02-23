@@ -106,6 +106,24 @@ client.on('message', message => {
     if (message.content === '=파랑새') {
     	message.reply('https://twitter.com/');
     }
+    if (message.content === '=Blue Bird') {
+    	message.reply('https://twitter.com/');
+    }
+    if (message.content === '=blue bird') {
+    	message.reply('https://twitter.com/');
+    }
+    if (message.content === '=blue Bird') {
+    	message.reply('https://twitter.com/');
+    }
+    if (message.content === '=blueBird') {
+    	message.reply('https://twitter.com/');
+    }
+    if (message.content === '=bluebird') {
+    	message.reply('https://twitter.com/');
+    }
+    if (message.content === '=BlueBird') {
+    	message.reply('https://twitter.com/');
+    }
  });
 
 //FACEBOOK
