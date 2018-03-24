@@ -26,10 +26,10 @@ client.on('message', message => {
 });
 
 //NAMUWIKI
-    N = https://namu.wiki
+
 client.on('message', message => {
     if (message.content === '=namuwiki') {
-    	message.reply('N');
+    	message.reply('https://namu.wiki');
     }
     if (message.content === '=Namuwiki') {
     	message.reply('https://namu.wiki');
