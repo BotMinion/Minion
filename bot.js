@@ -27,7 +27,6 @@ client.on('message', message => {
 
 //NAMUWIKI
 
-N = https://namu.wiki ;
 client.on('message', message => {
     if (message.content === '=namuwiki') {
     	message.reply('N');
@@ -196,37 +195,6 @@ client.on('message', message => {
   	}
     if (message.content === '=유튭') {
     	message.reply('https://www.youtube.com');
-  	}
- });
-
-//NAMUWIKI
-client.on('message', message => {
-    if (message.content === '=namuwiki') {
-    	message.reply('https://namu.wiki');
-    }
-    if (message.content === '=Namuwiki') {
-    	message.reply('https://namu.wiki');
-    }
-    if (message.content === '=NAMUWIKI') {
-    	message.reply('https://namu.wiki');
-    }
-    if (message.content === '=Namu_Wiki') {
-    	message.reply('https://namu.wiki');
-    }
-    if (message.content === '=Namu_wiki') {
-    	message.reply('https://namu.wiki');
-    }
-    if (message.content === '=namu_wiki') {
-    	message.reply('https://namu.wiki');
-    }
-    if (message.content === '=namu_Wiki') {
-    	message.reply('https://namu.wiki');
-    }
-    if (message.content === '=나위') {
-    	message.reply('https://namu.wiki');
-  	}
-    if (message.content === '=나무위키') {
-    	message.reply('https://namu.wiki');
   	}
  });
 
