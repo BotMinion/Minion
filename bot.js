@@ -18,6 +18,11 @@ client.on('message', message => {
       message.reply('https://giphy.com/gifs/laughing-despicable-me-minions-ZqlvCTNHpqrio');
   
   }
+    
+      if (message.content === '찡긋') {
+      message.reply('https://giphy.com/gifs/laughing-despicable-me-minions-ZqlvCTNHpqrio');
+  
+  }
 
   if (message.content === 'ping') {
       message.reply('pong');
