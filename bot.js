@@ -20,7 +20,7 @@ client.on('message', message => {
   }
     
       if (message.content === '찡긋') {
-      message.reply('');
+      message.reply('찡긋!');
   
   }
 
