@@ -1,5 +1,6 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
+const prefix = "미니 요르지니";
 
 client.on('ready', () => {
     console.log('I am ready!');
@@ -24,8 +25,8 @@ client.on('message', message => {
   
   }
 
-  if (message.content === 'ping') {
-      message.reply('pong');
+  if (message.content === '$병아리') {
+      message.reply('');
   
   }
 });
