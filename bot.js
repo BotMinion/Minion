@@ -26,7 +26,7 @@ client.on('message', message => {
   }
 
   if (message.content === '$병아리') {
-      message.reply('');
+      message.reply('삐약삐약');
   
   }
 });
