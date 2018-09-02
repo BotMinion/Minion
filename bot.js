@@ -115,7 +115,7 @@ client.on('message', message => {
     if (message.content === '=트윗트윗') {
     	message.reply('https://twitter.com/');
     }
-    if (message.content === '=파새') {
+    if (message.content === '=파란새') {
     	message.reply('https://twitter.com/');
     }
     if (message.content === '=Blue Bird') {
