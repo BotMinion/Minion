@@ -35,7 +35,7 @@ client.on('message', message => {
 
 client.on('message', message => {
     if (message.content === '=namuwiki') {
-    	message.reply('N');
+    	message.reply('https://namu.wiki');
     }
     if (message.content === '=Namuwiki') {
     	message.reply('https://namu.wiki');
