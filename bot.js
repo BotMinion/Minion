@@ -2,6 +2,8 @@ const Discord = require('discord.js');
 const client = new Discord.Client();
 const prefix = "미니 요르지니";
 
+[null,{"name":"입장","temp":"","event-type":"4","actions":[{"channel":"4","varName":"","message":"찡긋!","storage":"0","varName2":"","name":"Send Message"}]},{"name":"NewEvent","temp":"","event-type":"0","actions":[]}]
+
 client.on('ready', () => {
     console.log('I am ready!');
 });
