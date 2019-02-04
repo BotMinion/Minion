@@ -301,6 +301,61 @@ client.on('message', message => {
     	message.reply('https://www.google.com/');
   	}
  });
- 
+
+ {
+  "name": "p",
+  "permissions": "NONE",
+  "restriction": "1",
+  "_id": "LerTO",
+  "actions": [
+    {
+      "info": "1",
+      "infoIndex": "1",
+      "storage": "1",
+      "varName": "videoiwant",
+      "name": "Store Command Params"
+    },
+    {
+      "video": "${tempVars(\"videoiwant\")}",
+      "key": "AIzaSyCyvsDeeR5UtP7OBCGWkR9F5fCmWgYmCVM",
+      "info": "0",
+      "resultNo": "0",
+      "storage": "1",
+      "varName": "url",
+      "name": "YouTube Search"
+    },
+    {
+      "channel": "0",
+      "varName": "",
+      "name": "Join Voice Channel"
+    },
+    {
+      "video": "${tempVars(\"videoiwant\")}",
+      "key": "AIzaSyCyvsDeeR5UtP7OBCGWkR9F5fCmWgYmCVM",
+      "info": "1",
+      "resultNo": "0",
+      "storage": "1",
+      "varName": "name",
+      "name": "YouTube Search"
+    },
+    {
+      "url": "${tempVars(\"url\")}",
+      "seek": "0",
+      "volume": "4",
+      "passes": "1",
+      "bitrate": "64000",
+      "type": "0",
+      "name": "Play YouTube Video"
+    },
+    {
+      "channel": "0",
+      "varName": "",
+      "message": ":arrow_forward: **${tempVars(\"name\")}** 재생중!",
+      "storage": "0",
+      "varName2": "",
+      "name": "Send Message"
+    }
+  ]
+}
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
